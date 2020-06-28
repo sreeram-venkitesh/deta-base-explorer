@@ -1,0 +1,37 @@
+blockquote {
+    background: #eeeeee;
+    width:fit-content;
+    height: fit-content;
+    font-size: 21px;;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 2em 10px;
+    padding-right: 3em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.10em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+a {
+    color:#4a4a4a;
+}
+a:visited {
+    color: #4a4a4a;
+}
+
+a:link {
+    color: #4a4a4a;
+}
+
+a:hover {
+    color: #707070;
+}

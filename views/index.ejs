@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100vh;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deta Base Explorer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" href="quote.css">
+</head> 
+<body style="background-color: #f6f1f1; height:100vh; width:100%;">
+
+  <div style="margin-left:25%; margin-right:25%">
+  
+    <br/>
+    <br/>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: #f6f1f1;">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://deta.sh" style="margin-top:auto; margin-bottom:auto; padding:0px;">
+          <img src="https://uploads-ssl.webflow.com/5eb96efa78dc680fc15be3be/5ec58c9b49c21c4535eead5a_logo-250.png"  style="margin:0px; width:30px; height:30px; padding:0px;">
+        </a>
+        <h2 class="navbar-item" style="font-size: xx-large; font-weight:bold"> Deta Base Explorer</h2>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item" href="/" style="font-size: large;">
+              Home
+            </a>
+            <a class="navbar-item" href="/dashboard" style="font-size: large;">
+              Dashboard
+            </a>
+        </div>
+      </div>
+    </nav>
+    <br/>
+    <br/>
+
+    <section class="section">
+      <div class="container">
+        <h1 id='titleText' class="title is-2 is-spaced" >
+          Base, the real zero-setup database 
+        </h1>
+
+        <p class="subtitle is-3">
+          Deta Base, is a super easy to use production-grade NoSQL database. 
+          
+        </p>
+
+        <blockquote> 
+          <p class="subtitle">[With Deta] the gap from idea to code to reality is minimised to nearly 0 for me
+          <br/>
+          <span style="float:right; font-size:larger; margin-top:10px; margin-bottom:5px;">-<a target="_blank" href="https://twitter.com/athulcajay/status/1276209333466873856">Athul C Ajay</a></span></p>
+        </blockquote>
+        <p class="subtitle is-3">
+          With Explorer, you can easily read and write from your Bases
+        </p>
+      </div>
+    </section>
+
+    
+    <div class='columns'>
+      <div  class='column' style="width:fit-content; margin-right:5px; display:grid; background-color:#eaeaea; padding:2em; ">
+        <p class='subtitle is-4' style="text-align: center;">Ready to explore your bases?</p>
+        <button class="button is-link" onclick="location.href='/dashboard'" style="width: fit-content; margin-left:auto; margin-right:auto;"> Get Started! </button>
+      </div>
+    
+      <div class='column' style="width:fit-content; margin-left:5px; display:grid; background-color:#eaeaea; padding:2em;" >
+         <p class='subtitle is-4' style="text-align: center;">Unfamiliar with Deta?</p>
+         <button class="button is-link" onclick="location.href='https:/\/deta.sh'" style="width: fit-content; margin-left:auto; margin-right:auto;"> Checkout Deta </button>
+      </div>
+
+    </div>
+
+    
+
+    <br/>
+    <br/>
+
+    
+    
+
+  </div>
+
+
+
+  <script src="bundle.js"></script>
+</body>
+</html>
