@@ -4,8 +4,8 @@
   "description": "A database explorer for Base",
   "main": "index.js",
   "scripts": {
-    "build":"rm views/bundle.js && browserify worker.js -o bundle.js && mv bundle.js views/bundle.js",
-    "build-initial" : "browserify worker.js -o bundle.js && mv bundle.js views/bundle.js",
+    "build": "rm views/bundle.js && browserify worker.js -o bundle.js && mv bundle.js views/bundle.js",
+    "build-initial": "browserify worker.js -o bundle.js && mv bundle.js views/bundle.js",
     "start": "node index"
   },
   "repository": {
@@ -24,7 +24,6 @@
     "deta": "0.0.6",
     "ejs": "^3.1.3",
     "express": "^4.17.1",
-    "express-favicon": "^2.0.1",
     "express-static": "^1.2.6"
   }
 }
